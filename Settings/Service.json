@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "One",
+    "Type": "Ping",
+    "SuccessFlag": "200",
+    "ReferenceService": "http://localhost:5103/swagger/index.html",
+    "Command": ""
+  },
+  {
+    "Name": "Two",
+    "Type": "Ping",
+    "SuccessFlag": "200",
+    "ReferenceService": "http://localhost:5103/swagger/index1.html",
+    "Command": ""
+  },
+  {
+    "Name": "Tarasol MOJ",
+    "Type": "Ping",
+    "SuccessFlag": "Unauthorized",
+    "ReferenceService": "https://tarasol.moj.gov.ae/tarasolsite",
+    "Timeout": 60,
+    "Command": ""
+  },
+  {
+    "Name": "pyWebio",
+    "Type": "Port",
+    "SuccessFlag": "200",
+    "ReferenceService": "http://127.0.0.1:8000/",
+    "Command": ""
+  },
+  {
+    "Name": "AviraSecurity",
+    "Type": "MSService",
+    "SuccessFlag": "",
+    "ReferenceService": "",
+    "Command": "nvs"
+  }
+]

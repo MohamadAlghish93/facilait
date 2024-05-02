@@ -1,0 +1,27 @@
+{
+  "ConnectionStringOra": "User Id=<user>;Password=$password$;Data Source=<data source>",
+  "OraPassword": "",
+  "ConnectionStringSql": "Server=<server>;Database=<database>;User Id=<user>;Password=$password$",
+  "SQLPassword": "",
+  "InternalDB": true,
+  "Integration": [
+    {
+      "Name": "Slack",
+      "Enabled": false,
+      "UrlHooks": "https://hooks.slack.com/services/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",
+      "Token": ""
+    },
+    {
+      "Name": "Telegram",
+      "Enabled": false,
+      "UrlHooks": "https://api.telegram.org/bot6800893466:AAGwwvB358ZcLELioW_6cilYoV7YQ8oBkCc/sendMessage?chat_id=-847131721",
+      "Token": ""
+    },
+    {
+      "Name": "MSTeams",
+      "Enabled": false,
+      "UrlHooks": "https://nvssoft.webhook.office.com/webhookb2/4654aecc-a4f2-4753-b50c-27b9b584a055@3727fde6-d370-4fcb-a520-52890d2fd8f0/IncomingWebhook/7d72750d871e49efb0b8861a24b2a4db/14a7cdc6-18ae-47fa-aeb7-cf8eff8eb50a",
+      "Token": ""
+    }
+  ]
+}

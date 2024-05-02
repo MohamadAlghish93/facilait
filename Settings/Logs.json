@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "Log Tarasol API",
+    "Path": "/home/Chadooo/Downloads",
+    "Delimiter": [ ";2;", "_Error_" ],
+    "DateFormat": "yyyy-MM-dd hh:mm"
+  }
+]
